@@ -1,0 +1,7 @@
+.component {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 20px;
+
+  min-height: 2rem;
+}

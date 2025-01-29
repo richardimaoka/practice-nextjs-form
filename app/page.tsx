@@ -1,10 +1,10 @@
 import styles from "./page.module.css";
-import { Search } from "./ui/Search";
+import { Form } from "./ui/Form.tsx";
 
 export default function Page() {
   return (
     <div className={styles.component}>
-      <Search />
+      <Form />
     </div>
   );
 }

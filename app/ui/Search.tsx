@@ -7,7 +7,7 @@ export function Search() {
   }
 
   return (
-    <Form action="/search" className={styles.component}>
+    <Form action="search" className={styles.component}>
       {/* On submission, the input value will be appended to 
           the URL, e.g. /search?query=abc */}
       <input name="query" />
